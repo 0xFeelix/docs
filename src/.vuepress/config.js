@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  title: 'Felix',
+  title: '0xFelix',
   description: description,
 
   head: [
@@ -20,32 +20,16 @@ module.exports = {
     smoothScroll: true,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Blog',
+        link: '/blog/'
       },
       {
         text: 'Config',
         link: '/config/'
       },
-      {
-        text: 'Blog',
-        link: '/blog/'
-      },
-    ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    },
-  },
 
+    ],
+  },
 
   plugins: [
     '@vuepress/plugin-back-to-top',
