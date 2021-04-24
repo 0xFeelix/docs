@@ -24,8 +24,8 @@ module.exports = {
         link: '/blog/'
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Stylus',
+        link: '/stylus/'
       },
 
     ],

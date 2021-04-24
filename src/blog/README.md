@@ -3,3 +3,6 @@
 ---
 
 <posts />
+
+---
+[>Stylus](/stylus/)

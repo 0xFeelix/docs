@@ -168,3 +168,5 @@ skew to change the 'thickness' of the glitch.
   }
 }
 ```
+---
+[Back](/blog/)
