@@ -30,6 +30,7 @@ export default {
 </script>
 
 <style scoped>
+
 .post-container {
   display: flex;
   flex-wrap: wrap;
@@ -38,7 +39,7 @@ export default {
   width: 200px;
   height: 100px;
   margin: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #42b983;
   border-radius: 3px;
   padding: 10px;
   display: flex;
@@ -46,12 +47,5 @@ export default {
   justify-content: center;
   text-align: center;
 }
-.article-image {
-  height: 100%;
-}
-.description {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
+
 </style>
