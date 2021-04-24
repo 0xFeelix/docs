@@ -145,7 +145,7 @@ Just use the `--typescript` flag when invoking the `create-react-app` command:
 $ create-react-app my-new-app --typescript
 ```
 
-## Functional Components
+### Functional Components
 
 Stateless or functional components can be defined in TypeScript like so:
 
@@ -174,7 +174,7 @@ const Count: React.FunctionComponent<Props> = (props) => {
 ```
 
 
-## Class Components
+### Class Components
 
 Class components can similarly be defined in TypeScript as such:
 
@@ -218,7 +218,7 @@ export default class Counter extends React.Component<Props, State> {
 }
 ```
 
-## Default Props
+### Default Props
 
 We can also define `defaultProps` in scenarios where we may want to set default props. We can update our Count example to show this:
 

@@ -16,21 +16,20 @@
 export default {
   data() {
     return {
-      pages: []
-    }
+      pages: [],
+    };
   },
   mounted() {
-    this.$site.pages.forEach(page => {
-      if (page.frontmatter.type === 'article') {
-        this.pages.push(page)
+    this.$site.pages.forEach((page) => {
+      if (page.frontmatter.type === "article") {
+        this.pages.push(page);
       }
-    })
-  }
-}
+    });
+  },
+};
 </script>
 
 <style scoped>
-
 .post-container {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +38,8 @@ export default {
   width: 200px;
   height: 100px;
   margin: 10px;
-  border: 1px solid #42b983;
+  border-top: 4px solid #31313a;
+  background: #21212186;
   border-radius: 3px;
   padding: 10px;
   display: flex;
@@ -47,5 +47,16 @@ export default {
   justify-content: center;
   text-align: center;
 }
-
+.page-title {
+  color: #ccc;
+}
+.page-title:hover {
+  text-decoration: none !important;
+}
+.post-card:hover .page-title {
+  color: #42b983;
+}
+.post-card:hover{
+  background: #212121;
+}
 </style>
