@@ -4,8 +4,8 @@
       <div class="post-card">
         <div class="page-detail">
           <div class="page-title">{{ page.title }}</div>
-          <div class="page-description">{{ page.frontmatter.description }}</div>
-          <div class="page-author">Author: {{ page.frontmatter.author }}</div>
+          <!-- <div class="page-description">{{ page.frontmatter.description }}</div> -->
+          <!-- <div class="page-author">Author: {{ page.frontmatter.author }}</div> -->
         </div>
       </div>
     </router-link>
