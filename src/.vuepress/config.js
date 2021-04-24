@@ -43,7 +43,8 @@ module.exports = {
           ]
         }
       ],
-    }
+    },
+    dest: 'public',
   },
 
 
